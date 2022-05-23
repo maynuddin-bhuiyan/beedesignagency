@@ -1,0 +1,31 @@
+.Navigation{
+    padding-top: 47px;
+}
+
+
+.LogoImage img{
+    width: 217px;
+    height: 53px;
+}
+
+.TextItam {
+    margin-left: auto;
+    width: 100%;
+}
+
+.TextItam ul{
+    list-style: none;
+    display: flex;
+    width: 100%;   
+}
+
+
+
+.TextItam ul li {
+    font-size: 20px;
+    color: #000D21;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 55px;
+    font-weight: 600;
+}
+

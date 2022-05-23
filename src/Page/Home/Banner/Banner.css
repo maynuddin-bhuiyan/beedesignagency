@@ -1,0 +1,81 @@
+.Banner{
+    background-image: url(../../../Images/Banner/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    
+    
+}
+
+
+.BannerText h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    text-align: left;
+    margin: 0px;
+    color: #000D21;
+}
+
+
+.BannerText h2 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    width: 664px;
+    color: #FD8C1C;
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+.BannerText p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;    
+    width: 634px;
+    color: #707070;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+
+
+.Line {
+    width: 152px;
+    height: 3px;
+    background: #000D21;
+    margin-top: 25px;
+}
+
+
+
+.BannerText .ButtonBanner {
+    width: 241px;
+    height: 65px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 40px;
+    border: 2px solid #FD8C1C;
+    transition: all linear .4s;
+}
+
+
+
+.BannerText .ButtonBanner:hover {
+    background: #FD8C1C;
+    color: #FFFFFF;
+}
+
+
+
+.BannerImage img {
+    width: 713px;
+    height: 529px;
+}

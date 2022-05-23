@@ -1,0 +1,48 @@
+.AboutImage{
+    display: flex;
+}
+
+
+
+.AboutImage .FullImage {
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    
+}
+
+
+.AboutImage .FullImage img{
+    width: 240px;
+    height: 215px;
+    border-radius: 18px;
+    margin: auto;  
+   }
+
+
+.HafeImages .BigImag img{
+    width: 330px;
+    height: 300px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+}
+
+
+.HafeImages .SmallImag img{
+    width: 240px;
+    height: 215px;
+    border-radius: 18px;
+}
+
+
+
+
+.AboutText h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    text-align: left;
+    margin: 0px;
+    color: #FD8C1C;
+}

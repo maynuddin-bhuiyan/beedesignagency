@@ -1,0 +1,81 @@
+.OurTeam{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+
+.OurTeam h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'PT Serif', serif;
+    color: #000D21;
+
+
+}
+
+
+
+.OurTeam .HeadeText{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    width: 632px;
+    letter-spacing: 4px;
+    margin: auto;
+
+    
+
+
+}
+
+
+
+.OurTeam .TeamMember{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+
+.TeamMember .Member{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+
+.Member img{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.Member h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.Member p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

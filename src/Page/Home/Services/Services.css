@@ -1,0 +1,125 @@
+.Services{
+    padding: 100px 0px;
+    position: relative;
+   
+    
+    
+}
+
+
+
+.ServicesBanner {
+    background: url("../../../Images/Services/Path\ 136.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 939px;
+    height: 829px;
+    position: absolute;
+    top: 310px;
+    left: 0;
+    z-index: -1;
+    left: 0px;
+    
+}
+
+
+.ServicesItamAll{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+}
+
+.Services h3 {
+    color: #FD8C1C;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: left;
+    text-transform: uppercase;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.Services h2 {
+    color: #000D21;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 439px;
+    margin: 0px;
+    margin-bottom: 49px;
+}
+
+
+.Services p {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 613px;
+    line-height: 40px;
+    margin-bottom: 49px;
+    margin-top: 0px;
+}
+
+
+.ServicesItam {
+    width: 408px;
+    height: 290px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 6px 6px 30px #0000001A;
+    margin-top: 38px !important;
+    padding: 0px !important;
+    text-align: center;
+    margin-right: 38px !important;
+}
+
+
+
+
+
+
+
+
+.ServicesItam h4{
+    color: #000D21;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    margin-bottom: 20px;
+
+    
+}
+
+
+.ServicesItam p {
+    color: #000D21;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+.ServicesItam  img{
+    margin-top: 27px;
+    margin-bottom: 20px;
+
+}

@@ -1,9 +1,9 @@
-.Navigation{
+.Navigation {
     padding-top: 47px;
 }
 
 
-.LogoImage img{
+.LogoImage img {
     width: 217px;
     height: 53px;
 }
@@ -13,10 +13,10 @@
     width: 100%;
 }
 
-.TextItam ul{
+.TextItam ul {
     list-style: none;
     display: flex;
-    width: 100%;   
+    width: 100%;
 }
 
 
@@ -27,5 +27,12 @@
     font-family: 'Montserrat', sans-serif;
     margin-left: 55px;
     font-weight: 600;
+    cursor: pointer;
+    transition: all linear .2s;
 }
 
+
+
+.TextItam ul li:hover{
+    color: #FD8C1C;
+}

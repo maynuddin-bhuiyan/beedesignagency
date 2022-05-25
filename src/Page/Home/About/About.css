@@ -1,4 +1,4 @@
-.AboutImage{
+.AboutImage {
     display: flex;
 }
 
@@ -8,19 +8,19 @@
     display: flex;
     justify-content: center;
     margin-right: 25px;
-    
+
 }
 
 
-.AboutImage .FullImage img{
+.AboutImage .FullImage img {
     width: 240px;
     height: 215px;
     border-radius: 18px;
-    margin: auto;  
-   }
+    margin: auto;
+}
 
 
-.HafeImages .BigImag img{
+.HafeImages .BigImag img {
     width: 330px;
     height: 300px;
     border-radius: 18px;
@@ -28,16 +28,15 @@
 }
 
 
-.HafeImages .SmallImag img{
-    width: 240px;
+.HafeImages .SmallImag img {
+    width: 235px;
     height: 215px;
     border-radius: 18px;
 }
 
 
 
-
-.AboutText h3{
+.AboutText h3 {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -45,4 +44,69 @@
     text-align: left;
     margin: 0px;
     color: #FD8C1C;
+    height: 24px;
+}
+
+
+
+.AboutText h2 {
+    color: #000D21;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    width: 508px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    
+}
+
+
+
+.AboutText p {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    width: 613px;
+    margin: 0px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+
+
+.AboutBox {
+    display: flex;
+}
+
+
+.Design {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background: #F7F7F7;
+    text-align: center;
+    margin-right: 35px;
+}
+
+
+.Design img {
+    width: 52px;
+    height: 52px;
+    margin-top: 25px;
+}
+
+
+
+
+.Design h4 {
+    font-size: 20px;
+    color: rgb(0, 13, 33);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: center;
 }

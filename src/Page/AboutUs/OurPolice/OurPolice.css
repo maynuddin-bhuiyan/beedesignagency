@@ -1,0 +1,61 @@
+.OurPolice{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+
+
+.OurPolice h2{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 90px;
+    font-family: 'PT Serif', serif;
+    color: #000D21;
+}
+
+
+.OurPolice p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 835px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.AllCared{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.AllCared .PoliceCard img{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.PoliceCard h4 {
+    width: 145px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #000000;
+    margin: auto;
+    margin-top: 25px;
+}

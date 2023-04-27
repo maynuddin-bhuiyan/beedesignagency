@@ -1,4 +1,4 @@
-body{
+body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -12,9 +12,15 @@ body{
 }
 
 
-.DefultColor{
+.DefultColor {
     color: #FD8C1C;
 }
 
 
-
+/* Slider */
+.sliderContentContainer>.sliderContent {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.4s linear;
+    margin-bottom: 20px;
+}

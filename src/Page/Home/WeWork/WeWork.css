@@ -1,0 +1,97 @@
+.WeWork{
+    padding: 100px 0px;
+    background-image: url(../../../Images/WeWork/Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.header{
+    text-align: center;
+}
+
+
+
+
+.WeWork  h3  {
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FD8C1C;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 28px;
+}
+
+
+
+.WeWork h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #00295A;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+
+.WeWork p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #3A3A3A; 
+    margin-bottom: 104px;
+
+    
+}
+
+.WeWork .Work {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+
+.Work .WeDo {
+    width: 294px;
+    height: 285px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 30px #0000001A;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+.WeDo:nth-child(1) {
+    margin-left: 0px !important;
+  }
+
+
+.WeDo img {
+    width: 106px;
+    height: 98px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+
+
+.WeDo p{
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+

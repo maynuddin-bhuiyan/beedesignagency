@@ -1,0 +1,220 @@
+/* Main Css */
+.ProgressShadow img {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    z-index: -1;
+    height: 130px;
+    width: 530px;
+}
+
+.Progressive {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.ProgressiveImage {
+    background: url(../../../Images/Progress/ProgressBanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 960px;
+    height: 738px;
+    margin: auto;
+}
+
+.ProgressiveText {
+    margin-top: 50px !important;
+    padding: 0px !important;
+}
+
+.ProgressiveText h3 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fd8c1c;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ProgressiveText h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0px;
+    color: #000d21;
+    width: 508px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.ProgressiveText p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin: 0px;
+    color: #707070;
+    width: 613px;
+    margin-bottom: 38px;
+}
+
+.ProgressiveText .ProgressiveButton {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    line-height: 24px;
+    color: #000d21;
+    width: 240px;
+    height: 65px;
+    border-radius: 40px;
+    border: 2px solid #fd8c1c;
+    transition: all linear 0.4s;
+    margin-top: 30px;
+}
+
+.ProgressiveText .ProgressiveButton:hover {
+    background: #fd8c1c;
+    color: #f0f0f0;
+    border: none;
+}
+
+/* Skill Progress Bar */
+
+.Skills-bar {
+    padding: 0px 0px;
+}
+
+.Skills-bar .bar {
+    margin: 38px 0px;
+}
+
+.Skills-bar .bar:first-child {
+    margin: 0px 0px;
+}
+
+.Skills-bar .bar .info {
+    margin-bottom: 11px;
+}
+
+.Skills-bar .bar .info span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #000d21;
+}
+
+.Skills-bar .bar .Progress-line {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+        0px 1px rgba(255, 255, 255, 0.8);
+
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.Skills-bar .bar .Progress-line span {
+    height: 100%;
+    background: #fd8c1c;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.Progress-line.image span {
+    width: 90%;
+}
+
+.Progress-line.brand span {
+    width: 92%;
+}
+
+.Progress-line.uiUx span {
+    width: 96%;
+}
+
+.Progress-line.content span {
+    width: 96%;
+}
+
+.Progress-line.seo span {
+    width: 94%;
+}
+
+.Progress-line.web span {
+    width: 98%;
+}
+
+.bar .Progress-line span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -14px;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #f1fafd;
+}
+
+.bar .Progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    color: #fd8c1c;
+    font-size: 12px;
+    font-weight: 700;
+    background: #f1fafd;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.Progress-line.image span::after {
+    content: "95%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.Progress-line.brand span::after {
+    content: "96%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.Progress-line.uiUx span::after {
+    content: "94%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.Progress-line.web span::after {
+    content: "98%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.Progress-line.seo span::after {
+    content: "94%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.Progress-line.content span::after {
+    content: "96%";
+    font-family: "Montserrat", sans-serif;
+}
+
+.slick-list {
+    cursor: pointer;
+}

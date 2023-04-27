@@ -1,0 +1,134 @@
+.Footer{
+    background: #000000;
+    padding: 60px 0px 100px;
+    position: relative;
+}
+
+
+.FooterLine {
+    background-color: #FD8C1C;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 315px;
+    left: 0px;
+}
+
+
+
+
+.HeaderFooter{
+    text-align: center;
+}
+
+
+
+.HeaderFooter img{
+    width: 320px;
+}
+
+
+.HeaderFooter p {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.HeaderFooter input {
+    padding: 10px 60px;
+    border-radius: 4px;
+    width: 330px;
+    font-size: 20px;
+    height: 60px;
+    outline: 0px;
+    
+}
+
+
+.HeaderFooter .FooterButton {
+    width: 150px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 7px;
+    height: 60px;
+    margin-left: 20px;
+    border: 2px solid #F98506;
+    margin-top: -12px;
+    transition: all linear .3s;
+}
+
+
+.FooterButton:hover{
+    background: #F98506 !important;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+.SubHeaderFooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 90px;
+}
+
+
+.SubFooter ul{
+    list-style-type: none;
+
+}
+
+
+.SubFooter ul li {
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    opacity: 1;
+}
+
+
+.SubFooter h4{
+    font-size: 25px;
+    color: #F98506;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 45px;
+
+}
+
+
+.SubFooter p {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+
+.AllIcone{
+    display: flex;
+}
+
+
+
+.FooterIcon {
+    width: 54px;
+    height: 50px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}

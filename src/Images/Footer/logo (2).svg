@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322.378" height="79.851" viewBox="0 0 322.378 79.851">
+  <g id="logo" transform="translate(-336.609 -980.509)">
+    <g id="Group_1" data-name="Group 1" transform="translate(415.987 984.525)">
+      <text id="Bee_Design" data-name="Bee Design" transform="translate(0 36)" fill="#fd8c1c" font-size="47" font-family="Helvetica"><tspan x="0" y="0">Bee</tspan><tspan y="0" fill="#000d21"> </tspan><tspan y="0" fill="#fff">Design</tspan></text>
+    </g>
+    <text id="Agency" transform="translate(416.563 1052.436)" fill="#fff" font-size="22" font-family="Helvetica"><tspan x="0" y="0">Agency</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(336.609 980.509)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="24.311" height="24.311" transform="translate(36.098 79.85) rotate(-135)" fill="#fff"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="24.311" height="24.311" transform="translate(36.098 34.38) rotate(-135)" fill="#fff"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(21.898 2.008)">
+        <path id="Path_1" data-name="Path 1" d="M604.637,1013.341l-6.658-6.209a1.558,1.558,0,0,1-.086-2.2h0a1.558,1.558,0,0,1,2.2-.086l6.658,6.209Z" transform="translate(-597.478 -1004.428)" fill="#fff"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(40.785 1.863)">
+        <path id="Path_2" data-name="Path 2" d="M824.587,1011.76l-2.117-2.288,6.8-6.354a1.559,1.559,0,0,1,2.2.085h0a1.559,1.559,0,0,1-.086,2.2Z" transform="translate(-822.47 -1002.702)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="24.311" height="24.311" transform="translate(0 40.149) rotate(-45)" fill="#fd8c1c"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="24.311" height="24.311" transform="translate(55.907 57.341) rotate(-135)" fill="#fd8c1c"/>
+    </g>
+  </g>
+</svg>

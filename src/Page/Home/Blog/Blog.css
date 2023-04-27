@@ -1,0 +1,16 @@
+.Blog {
+    padding: 100px 0px;
+}
+
+
+
+.BlogCard {
+    width: 310px;
+    height: 500px !important;
+}
+
+
+
+.BlogCard img {
+    width: 310px;
+}

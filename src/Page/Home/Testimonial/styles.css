@@ -1,0 +1,42 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    padding: 10px 20px;
+    overflow: hidden;    
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+   
+  }
+  
+
+  .swiper-slide-prev{
+      box-shadow: none;
+      background: none;
+  }
+
+
+.swiper-slide-visible {
+    background: none;
+    box-shadow: none;
+
+}
+
+ 
+  .swiper-slide-active{
+    filter: blur(0px);    
+    margin-top: 0px;
+  }
+
+  .swiper-slide img {
+    width: 171px;
+    height: 171px;
+    text-align: center;
+  }

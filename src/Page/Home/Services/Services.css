@@ -1,9 +1,9 @@
-.Services{
+.Services {
     padding: 100px 0px;
     position: relative;
-   
-    
-    
+
+
+
 }
 
 
@@ -20,27 +20,28 @@
     left: 0;
     z-index: -1;
     left: 0px;
-    
+
 }
 
 
-.ServicesItamAll{
+.ServicesItamAll {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
+
 }
 
 .Services h3 {
-    color: #FD8C1C;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
     letter-spacing: 4px;
-    text-align: left;
-    text-transform: uppercase;
-    height: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FD8C1C;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     margin: 0px;
     margin-bottom: 30px;
+
 }
 
 
@@ -56,6 +57,7 @@
     width: 439px;
     margin: 0px;
     margin-bottom: 49px;
+
 }
 
 
@@ -72,6 +74,7 @@
 }
 
 
+
 .ServicesItam {
     width: 408px;
     height: 290px;
@@ -82,24 +85,56 @@
     padding: 0px !important;
     text-align: center;
     margin-right: 38px !important;
+    cursor: pointer;
+    background-size: 50.1% var(--p, .08em);
+    transition: .1s var(--t, 0s), background-position .1s calc(.1s - var(--t, 0s));
+
+}
+
+
+
+.ServicesItam:hover {
+    background: transparent linear-gradient(129deg, #DE05CB 0%, #0057F5 100%) 0% 0% no-repeat padding-box;
+    background-size: 100% var(--p, .08em);
+    transition: .1s var(--t, 0s), background-position .1s calc(.1s - var(--t, 0s));
+    --p: 101%;
+    --t: 0.3s;
+    color: #980e0e;
+
+
+}
+
+
+.ServicesItam:hover img {
+    background: #ffffff;
+    border-radius: 50%;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+
+.ServicesItam:hover h4 {
+    color: #FFFFFF;
+}
+
+
+.ServicesItam:hover p {
+    color: #FFFFFF;
 }
 
 
 
 
-
-
-
-
-.ServicesItam h4{
+.ServicesItam h4 {
     color: #000D21;
     font-size: 20px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     margin-bottom: 20px;
+    transition: all linear .3s;
 
-    
+
 }
 
 
@@ -112,14 +147,16 @@
     line-height: 25px;
     text-align: center;
     margin: auto;
+    transition: all linear .3s;
+
 }
 
 
 
 
 
-.ServicesItam  img{
+.ServicesItam img {
     margin-top: 27px;
     margin-bottom: 20px;
-
+    transition: all linear .8s;
 }

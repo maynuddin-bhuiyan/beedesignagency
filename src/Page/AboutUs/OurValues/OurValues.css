@@ -8,6 +8,29 @@
 }
 
 
+.OurValuesText h3{
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FD8C1C;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+
+
+.OurValuesText h2{
+    color: #000D21;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 439px;
+    margin: 0px;
+      
+}
+
 
 .OurValues .OurValuesCard{
     display: grid;

@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Slider */
+.sliderContentContainer>.sliderContent {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.4s linear;
+  margin-bottom: 20px;
+}
+
+.ButtonBanner {
+  width: 241px;
+  height: 65px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  border-radius: 40px;
+  border: 2px solid #FD8C1C;
+  transition: all linear .4s;
+}
+
+
+
+.BannerText .ButtonBanner:hover {
+  background: #FD8C1C;
+  color: #FFFFFF;
+}
